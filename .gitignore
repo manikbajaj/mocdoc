@@ -342,19 +342,19 @@ typings/
 .cache
 .parcel-cache
 
-# Next.js build output
+# Next.js dist output
 .next
 
-# Nuxt.js build / generate output
+# Nuxt.js dist / generate output
 .nuxt
 dist
 
-# Storybook build outputs
+# Storybook dist outputs
 .out
 .storybook-out
 storybook-static
 
-# rollup.js default build output
+# rollup.js default dist output
 dist/
 
 # Gatsby files
@@ -363,7 +363,7 @@ dist/
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
+# vuepress dist output
 .vuepress/dist
 
 # Serverless directories
@@ -597,7 +597,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-# TeamCity is a build add-in
+# TeamCity is a dist add-in
 _TeamCity*
 
 # DotCover is a Code Coverage Tool
@@ -662,7 +662,7 @@ PublishScripts/
 *.snupkg
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
-# except build/, which is used as an MSBuild target.
+# except dist/, which is used as an MSBuild target.
 !**/[Pp]ackages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/[Pp]ackages/repositories.config
@@ -747,7 +747,7 @@ FakesAssemblies/
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
 
-# Visual Studio 6 build log
+# Visual Studio 6 dist log
 *.plg
 
 # Visual Studio 6 workspace options file
@@ -756,7 +756,7 @@ FakesAssemblies/
 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
 *.vbw
 
-# Visual Studio LightSwitch build output
+# Visual Studio LightSwitch dist output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
 **/*.DesktopClient/ModelManifest.xml
@@ -788,7 +788,7 @@ __pycache__/
 # Telerik's JustMock configuration file
 *.jmconfig
 
-# BizTalk build output
+# BizTalk dist output
 *.btp.cs
 *.btm.cs
 *.odx.cs
