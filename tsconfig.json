@@ -71,5 +71,6 @@
 
     /*Custom options*/
     "resolveJsonModule": true
-  }
+  },
+  "exclude": ["node_modules", "dist", "__tests__", "coverage", "jest.config.js", "*.test.ts", "*.test.js" ]
 }
